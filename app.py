@@ -29,10 +29,10 @@ source = pd.DataFrame({'x': x.ravel(),
                      'y': y.ravel(),
                      'z': z.ravel()})
 
-c1=alt.Chart(source).mark_rect().encode(
-    x='x:O',
-    y='y:O',
-    color='z:Q'
+# c1=alt.Chart(source).mark_rect().encode(
+#     x='x:O',
+#     y='y:O',
+#     color='z:Q'
   
   
   
