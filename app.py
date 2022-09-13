@@ -39,7 +39,7 @@ st.altair_chart(c1, use_container_width=True)
 
 sentences1 = st.text_input('Insert sentences1:')
 if st.button('Submit'):
-    st.write('The most handsome guy is:', sentences1)
+    st.write('Outcome is:', sentences1)
 
 
 #如何通过submit收集数据
