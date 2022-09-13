@@ -33,13 +33,19 @@ c1=alt.Chart(source).mark_rect().encode(
     x='x:O',
     y='y:O',
     color='z:Q'
+  
+  
+  
+if st.button("reading data"):
+  st,
 )
 
 st.altair_chart(c1, use_container_width=True)
 
 sentences1 = st.text_input('Insert sentences1:')
 if st.button('Submit'):
-    st.write('Outcome is:', sentences1)
+  data = pd.read_csv('https://raw.githubusercontent.com/HamidBekamiri/Data_Science_Handbook/main/chipotle.csv')
+  st.write(data)
 
 
 #如何通过submit收集数据
