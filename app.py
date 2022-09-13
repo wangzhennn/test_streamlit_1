@@ -36,14 +36,11 @@ c1=alt.Chart(source).mark_rect().encode(
   
   
   
-if st.button("reading data"):
-  st,
-)
 
 st.altair_chart(c1, use_container_width=True)
 
 sentences1 = st.text_input('Insert sentences1:')
-if st.button('Submit'):
+if st.button('reading data'):
   data = pd.read_csv('https://raw.githubusercontent.com/HamidBekamiri/Data_Science_Handbook/main/chipotle.csv')
   st.write(data)
 
