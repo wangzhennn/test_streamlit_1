@@ -37,7 +37,7 @@ source = pd.DataFrame({'x': x.ravel(),
   
   
 
-st.altair_chart(c1, use_container_width=True)
+# st.altair_chart(c1, use_container_width=True)
 
 sentences1 = st.text_input('Insert sentences1:')
 if st.button('reading data'):
